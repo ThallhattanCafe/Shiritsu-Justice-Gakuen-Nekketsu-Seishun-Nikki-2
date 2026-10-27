@@ -1,0 +1,9 @@
+*.bin
+*.iso
+*.img
+*.chd
+*.ecm
+*.state
+*.mcr
+*.srm
+bios/
