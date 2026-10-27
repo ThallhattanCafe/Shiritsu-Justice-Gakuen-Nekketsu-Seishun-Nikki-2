@@ -18,21 +18,21 @@ The extracted catalogue has **7,855 of 18,807 distinct entries fully translated 
 
 These are actual emulator captures of English text included in v0.64, taken during development. They show individual translated scenes and menus, not installation mockups or a complete playthrough.
 
-### Choosing an activity at the school festival.
+### Natsu at the festival food stalls.
 
-![Choosing an activity at the school festival.](festival-menu.png)
+![Natsu at the festival food stalls.](natsu-dialogue.png)
 
-### A conversation with Hayato.
+### Tiffany at the school festival.
 
-![A conversation with Hayato.](hayato-dialogue.png)
+![Tiffany at the school festival.](tiffany-dialogue.png)
 
-### Boman on the school field.
+### Kyoko talks about helping the drama club.
 
-![Boman on the school field.](boman-dialogue.png)
+![Kyoko talks about helping the drama club.](kyoko-dialogue.png)
 
-### Receiving the Fighting-Spirit Headband.
+### The class representative on festival duty.
 
-![Receiving the Fighting-Spirit Headband.](friendship-reward.png)
+![The class representative on festival duty.](class-rep-dialogue.png)
 
 ## Applying the patch
 
