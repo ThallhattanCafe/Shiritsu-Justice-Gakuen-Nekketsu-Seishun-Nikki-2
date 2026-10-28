@@ -1,32 +1,34 @@
-# Translation progress
+# Translation status — v0.103
 
-Updated 28 October 2026.
+Released 28 October 2026. This is an English School Life preview for the Japanese PS1 / PSX game, SLPS-02120.
 
-## Extracted text complete
+## Translated
 
-The local v0.102 development build has English text for **18,807 of 18,807 distinct entries in the extracted scenario catalogue**, across every known reference. This covers the catalogue's School Life dialogue, events, shared menus and year-end instructions.
+All **18,807 / 18,807 entries in the extracted scenario catalogue** are translated across their known references. This includes the later school-year dialogue and endings, with a final pronoun and wording review. It is a text-catalogue count, not a claim that every game screen or every route has been tested.
 
-The final language pass checked pronouns and forms of address against scene context. Male characters use he/him/his and female characters use she/her. Singular neutral references were rewritten where needed; actual plural references remain plural. The pass also corrected spelling and spacing.
+The combat graphics work adds:
 
-This milestone applies to the extracted catalogue. Some text is stored or drawn elsewhere, so it does not mean every screen is in English.
+- 32 previously untranslated tutorial/exam instruction sets. All 33 instruction atlases are included; the existing July translation also received a clearer HUD title.
+- 210 move-name slots across 32 edit-character cards, including repeated names.
+- English category and light/heavy attack labels on 56 cards: the 32 edit-character cards and 24 regular-fighter cards.
+- Shorter, outlined English lesson titles for the combat HUD.
 
-## Next work
+Move names are working English localizations; the official terminology still needs a consistency review. The game continues to hide moves that the character has not learned.
 
-1. Locate and inventory the remaining combat-exam instructions, move-list pages, technique names and related labels.
-2. Translate that material and add the required format support to Recast.
-3. Check the rebuilt screens in-game, including button symbols, line lengths and navigation.
-4. Continue route testing and real-BIOS/emulator validation before a later release.
+## Still to translate
 
-The March exam instructions and combat character move list are confirmed examples of Japanese text outside the completed catalogue. An exact remaining string count is not available yet.
+- Team-Up move names in the shared graphic atlas.
+- Command conditions and qualifiers, including in-air, charge and repeat instructions.
+- Individual move names on the 24 regular-fighter cards. Their category and light/heavy labels are already translated.
+- The character-data heading and stat page.
+- Some exam HUD labels and calendar exam banners.
 
-## Checks so far
+These are known remaining screens, not an exhaustive count of every graphical string. There is no reliable percentage for this remaining work yet. The next translation pass will focus on these move-list and exam details.
 
-The final development build passed binary, compressed-data, disc-sector and text-structure checks, plus the date-table and protagonist-pronoun regressions. Eight targeted runtime scenarios covered both protagonists through New Year, Valentine events, a December Batsu scene, and February-to-March progression through the ending and completion/save instructions. There were 126 selected dialogue captures reviewed for rendering.
+## Testing still to do
 
-Those checks used PCSX ReARMed with HLE BIOS and interpreter settings. They do not cover every dialogue branch or certify a complete school-year playthrough. Actual character registration after the final instructions, real-BIOS behavior and DuckStation validation remain to be checked.
+The BPS patch was independently decoded and reconstructed the exact tested build. All 89 new or revised graphic streams matched the final disc, and the 103 scenario assets remained unchanged from v0.102. Compression, sector and full-disc checks passed.
 
-## Downloads
+Targeted PCSX-ReARMed HLE/interpreter checks loaded the July, December and March exams through normal controls from pre-exam fixtures. The English textures matched VRAM exactly; complete instructions, two edit-card types and all three exam HUD titles were visually checked. The March exam returned to the calendar normally.
 
-The downloadable patch is still [v0.64](https://github.com/ThallhattanCafe/Shiritsu-Justice-Gakuen-Nekketsu-Seishun-Nikki-2/releases/tag/v0.64). Its coverage is lower than the development build described here. This update publishes progress notes only; it includes no new patch, translation dump, ROM or BIOS.
-
-Reusable parser improvements, revision checks and synthetic tests are maintained in [Recast](https://github.com/ThallhattanCafe/recast). The game-specific translation data stays separate.
+The 30 ordinary lessons, every card and unlock combination, and the regular-fighter cards still need individual in-game checks. Real-BIOS and DuckStation validation, actual character registration, and a complete school-year playthrough with all branches remain pending. Earlier testing includes targeted dialogue and calendar checks for both protagonists; it does not cover every route.
