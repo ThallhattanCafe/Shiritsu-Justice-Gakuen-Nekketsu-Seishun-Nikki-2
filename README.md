@@ -17,3 +17,42 @@ The game has been playtested in all modes, and everything should work as intende
 The patch may be redistributed unchanged. Modifying it requires my prior explicit written permission. I do not own Capcom's game, characters, assets, or other rights; I claim only my own original work. See [LICENSE](LICENSE) for the full terms.
 
 My translations will always be free. If you want to support what I do, please consider donating to [Old Friends Japan](https://old-friends-japan.com/en).
+
+
+## Pool scenes
+
+### Hinata
+
+<p align="center">
+  <img src="pool-hinata.png" alt="Hinata at the pool" width="512">
+</p>
+
+### Natsu
+
+<p align="center">
+  <img src="pool-natsu.png" alt="Natsu at the pool" width="512">
+</p>
+
+### Tiffany
+
+<p align="center">
+  <img src="pool-tiffany.png" alt="Tiffany at the pool" width="512">
+</p>
+
+### Akira
+
+<p align="center">
+  <img src="pool-akira.png" alt="Akira at the pool" width="512">
+</p>
+
+### Kyoko
+
+<p align="center">
+  <img src="pool-kyoko.png" alt="Kyoko at the pool" width="512">
+</p>
+
+### Ran
+
+<p align="center">
+  <img src="pool-ran.png" alt="Ran at the pool" width="512">
+</p>
