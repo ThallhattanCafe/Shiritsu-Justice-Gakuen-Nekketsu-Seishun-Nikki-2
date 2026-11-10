@@ -1,56 +1,19 @@
-# Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2
+# Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2 — V1.0
 
-English translation patch for the Japanese PlayStation game (PS1 / PSX, **SLPS-02120**), focused on **School Life mode**.
+<p align="center">
+  <img src="game.png" alt="Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2" width="512">
+</p>
 
-**v0.103 is available.** All **18,807 / 18,807 entries in the extracted scenario catalogue** are translated, with the final pronoun and wording review included. This release also adds combat-exam instructions and move-list graphics. Some graphical text remains Japanese, and a full playthrough of every route is still pending.
+This is the full English translation of **Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2** and the final version.
 
-[Download v0.103](https://github.com/ThallhattanCafe/Shiritsu-Justice-Gakuen-Nekketsu-Seishun-Nikki-2/releases/tag/v0.103) · [Installation guide](https://github.com/ThallhattanCafe/Shiritsu-Justice-Gakuen-Nekketsu-Seishun-Nikki-2/wiki/Installation) · [Translation status](STATUS.md)
+This includes the UIs, Game Shop, Mini Games, Tests, Arcade Mode, and more.
 
-## What's new
+The translation has also been improved compared to previous releases.
 
-- The complete extracted scenario translation, including later school-year dialogue and endings, beyond the older v0.64 preview.
-- 32 additional tutorial/exam instruction sets; all 33 instruction atlases now have English text.
-- 210 move-name slots across 32 edit-character cards.
-- English category and light/heavy labels on 56 cards, plus clearer combat HUD lesson titles.
+The game has been playtested in all modes, and everything should work as intended. If you find any bugs, please send me a message.
 
-The 18,807-entry milestone covers the extracted text catalogue. It does not mean every game screen is translated or every route has been playtested.
+[Download V1.0](https://github.com/ThallhattanCafe/Shiritsu-Justice-Gakuen-Nekketsu-Seishun-Nikki-2/releases/tag/V1.0) · [Installation](INSTALL.md) · [License](LICENSE)
 
-## What's left
+The patch may be redistributed unchanged. Modifying it requires my prior explicit written permission. I do not own Capcom's game, characters, assets, or other rights; I claim only my own original work. See [LICENSE](LICENSE) for the full terms.
 
-Team-Up move names, command qualifiers such as in-air/charge/repeat, and individual move names on 24 regular-fighter cards still need translation. The character-data heading/stat page and some exam HUD labels and calendar banners also remain Japanese. The next pass will focus on those move-list and exam details. [STATUS.md](STATUS.md) separates remaining translation from remaining testing.
-
-## In-game screenshots
-
-These are actual emulator captures from translated scenes. The dialogue screenshots were taken during v0.64 development; those translations remain included in v0.103.
-
-### Natsu at the festival food stalls
-
-![Natsu at the festival food stalls](natsu-dialogue.png)
-
-### Tiffany at the school festival
-
-![Tiffany at the school festival](tiffany-dialogue.png)
-
-### Kyoko talks about helping the drama club
-
-![Kyoko talks about helping the drama club](kyoko-dialogue.png)
-
-### The class representative on festival duty
-
-![The class representative on festival duty](class-rep-dialogue.png)
-
-## Applying the patch
-
-Apply the BPS patch to an **original, unmodified Japanese BIN** and load the matching CUE in your emulator. Start from the original even if you have used an earlier English patch. The [installation guide](https://github.com/ThallhattanCafe/Shiritsu-Justice-Gakuen-Nekketsu-Seishun-Nikki-2/wiki/Installation) includes filenames, hashes and troubleshooting.
-
-Only the patch, documentation and screenshots are distributed here. No game image, BIOS or translation dump is included.
-
-## Testing
-
-Independent BPS reconstruction and binary checks passed. Targeted emulator checks confirmed the July, December and March exam instructions and HUDs, two edit-character move-card types, and the March return to the calendar. Testing used PCSX-ReARMed HLE/interpreter. Most individual lessons and card/unlock combinations, real-BIOS/DuckStation validation and a complete school-year playthrough remain to be checked. See [STATUS.md](STATUS.md) for the scope.
-
-## Tools
-
-The translation tools are maintained separately in [Recast](https://github.com/ThallhattanCafe/recast).
-
-This is an unofficial fan translation. The original game and its assets belong to Capcom. No affiliation or endorsement is implied.
+My translations will always be free. If you want to support what I do, please consider donating to [Old Friends Japan](https://old-friends-japan.com/en).
