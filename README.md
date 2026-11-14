@@ -10,7 +10,7 @@ This includes the UIs, Game Shop, Mini Games, Tests, Arcade Mode, and more.
 
 The translation has also been improved compared to previous releases.
 
-The game has been playtested in all modes, and everything should work as intended. If you find any bugs, please send me a message.
+The game has been playtested in all modes, and everything should work as intended. If you find any bugs, please send me a message / open issue.
 
 [Download V1.0](https://github.com/ThallhattanCafe/Shiritsu-Justice-Gakuen-Nekketsu-Seishun-Nikki-2/releases/tag/V1.0) · [Installation](INSTALL.md) · [License](LICENSE)
 
