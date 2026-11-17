@@ -1,14 +1,14 @@
-# Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2 — V1.0
+# Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2 — V1.0.1 - Check releases before reporting black screen issues.
 
 <p align="center">
   <img src="game.png" alt="Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2" width="512">
 </p>
 
-This is the full English translation of **Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2** and the final version.
+Full English translation of **Shiritsu Justice Gakuen: Nekketsu Seishun Nikki 2** and the final version that will receive improvement patches.
 
-This includes the UIs, Game Shop, Mini Games, Tests, Arcade Mode, and more.
+Version 1.0.1 includes School Life, UIs, Game Shop, Mini Games, Tests, Arcade Mode, and more.
 
-The translation has also been improved compared to previous releases.
+The translation has been improved compared to previous releases. I am still trying to find better ways to render the texts. Some parts of the translation is still a bit unpolished due to character limits and engine limitation. 
 
 The game has been playtested in all modes, and everything should work as intended. If you find any bugs, please send me a message / open issue.
 
